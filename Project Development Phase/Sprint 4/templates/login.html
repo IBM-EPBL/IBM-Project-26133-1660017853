@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="/static/css/home.css">
-        <link rel="stylesheet" href="/static/css/login.css" >
+        <link rel="stylesheet" href="../static/css/home.css">
+        <link rel="stylesheet" href="../static/css/login.css" >
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -17,7 +17,7 @@
               <nav class="navbar navbar-dark bg-dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"  style="font-weight: bold">
-                    <img src="/static/img/job-icon.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    <img src="../static/img/job-icon.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
                     &nbsp  Job Hunter
                   </a>
                 </div>
@@ -48,7 +48,7 @@
         <form class="wrapper" method="post" action="/welcome">
             <h3>Login</h3>
             <p>Haven't registered to our website yet <a href="#">Register Now</a></p>
-            <p>{{session.msg}} </p>
+            <p> </p>
             <div>
               <label for="email">Email</label><br>
               <input class="details" type="email" name="email" placeholder="Email">
